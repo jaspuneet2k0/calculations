@@ -1,0 +1,63 @@
+﻿body
+{
+    margin:0;
+    background-image:url(back.jpg);
+    font-family:Arial,Helvetica,sans-serif;
+    color: dimgrey;
+}
+.wrap
+{
+     margin:0% auto;
+     width:960px;
+}
+.menu ul
+{
+list-style:none;
+margin:0;
+}
+.menu ul li
+{
+float:left;
+padding:10px 50px 10px 50px;
+}
+.menu
+{
+overflow:hidden;
+float:right;
+}
+.menu ul li a
+{
+text-decoration:none;
+}
+.menu ul li a:hover
+{
+color:#CC99FF;
+}
+.header
+{
+    height:75px;
+}
+.header h1
+{
+    padding-top:10px;
+    text-decoration:none
+}
+.header img
+{
+    width:60px;
+    float:left;
+}
+.header a:hover
+{
+    text-decoration:underline;
+    color:black;
+}
+.newdiv
+{
+    margin-top:100px;
+    margin-left:100px;
+}
+.newdiv1
+{
+    margin-left:100px;
+}

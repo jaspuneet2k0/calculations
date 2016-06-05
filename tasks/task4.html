@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>New Tasks</title>
+    <link rel="shortcut icon" href="images/Utilities-tasks-icon.png">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="Script1.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <a href="index.html" title="Home">
+                <img src="images/Tasks.png" />
+                <h1>Tasks</h1>
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="task1.html">Task 1</a></li>
+                <li><a href="task2.html">Task 2</a></li>
+                <li><a href="task3.html">Task 3</a></li>
+                <li><a href="#" style="color: cadetblue">Task 4</a></li>
+            </ul>
+        </div>
+        <div class="newdiv">
+            <form>
+                <h3>Celsius</h3><input type="text" id="cel" required /><br /><br />
+                <input type="button" onclick="celToFahr()" value="Calculate Celsius To Fahrenheit"><br />
+                <p id="newresult"></p><br /><br />
+            </form>
+        </div>
+        <div class="newdiv1">
+            <form>
+                <h3>Fahrenheit</h3><input type="text" id="fahr" required /><br /><br />
+                <input type="button" onclick="fahrToCel()" value="Calculate Fahrenheit To Celsius"><br />
+                <p id="newresult1"></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

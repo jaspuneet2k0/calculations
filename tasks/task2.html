@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>New Tasks</title>
+    <link rel="shortcut icon" href="images/Utilities-tasks-icon.png">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="Script1.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <a href="index.html" title="Home">
+                <img src="images/Tasks.png" />
+                <h1>Tasks</h1>
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="task1.html">Task 1</a></li>
+                <li><a href="#" style="color: cadetblue">Task 2</a></li>
+                <li><a href="task3.html">Task 3</a></li>
+                <li><a href="task4.html">Task 4</a></li>
+            </ul>
+        </div>
+        <div class="newdiv">
+            <form>
+                <h3>Age</h3><input type="tel" id="age" required /><br /><br />
+                <h3>Amount Per Day </h3><input type="tel" id="amount" required /><br /><br />
+                <input type="button" onclick="calculateSupply()" value="Calculate Supply"><br />
+            </form>
+            <p id="newresult"></p>
+        </div>
+    </div>
+</body>
+</html>
